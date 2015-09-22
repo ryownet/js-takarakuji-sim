@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header>
+<h1 class="ttl-hd"><span class="icn-head"></span>宝くじシミュレーター</h1>
+</header>
+
+<div class="app">
+
+<div class="user">
+  <div class="subBlock block-total" id="total">
+    <div class="text-small">投資金額</div>
+    <span data-txt="total" class="disp-total">0</span><span class="unit">円</span>
+  </div>
+  <div class="subBlock block-kakutoku" id="kakutoku">
+    <div class="text-small">獲得金額</div>
+    <span data-txt="kakutoku" class="disp-kakutoku">0</span><span class="unit">円</span>
+  </div>
+</div>
+
+
+<div class="shusi" id="sagaku">
+  <div class="text-small">収支</div>
+  <div class="disp-shusi">
+    <span data-txt="sagaku">0</span><span class="unit">円</span>
+  </div>
+  <div id="maisuu" class="maisuu">
+    <span data-txt="maisuu">0</span><span class="unit">枚</span>
+  </div>
+</div>
+
+
+  
+
+<div class="inner"><div id="out">
+</div></div>
+
+<!-- /app --></div>
+
+<section class="about"><div class="inner">
+<h2>宝くじシミュレーターとは？</h2>
+<p>宝くじを買った気になれるWEBアプリです。</p>
+<ul>
+  <li>バラ買いです</li>
+  <li>ユニットは無視します</li>
+  <li>当せん番号および当せん本数は2015年ドリームジャンボ宝くじを想定しています</li>
+  <li>購入金額は1枚300円を想定しています</li>
+</div></section>
+
+
+<footer>
+(C)宝くじシミュレーター
+</footer>
+
+<div class="actionBar"><div class="inner">
+<button class="btn btn-primary" data-click="start" disabled>スタート</button>
+<button  class="btn btn-stop" data-click="stop" disabled>一時停止</button>
+</div></div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/app.js"></script>
+
+
+
+</body></html>

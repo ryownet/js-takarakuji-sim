@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	background: #f5f5f5;
+	font-family:   "San Francisco", "Helvetica Neue", "Lucida Grande", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
+}
+header{
+	background: #fff;
+	padding: 1px 0;
+}
+footer{
+	padding: 10px 0 70px;
+	text-align: center;
+	font-size: 9px;
+	background: #333;
+	color: #fff;
+}
+
+.ttl-hd{
+	font-size: 14px;
+	text-align: center;
+	line-height: 1;
+	position: relative;
+}
+.ttl-hd .icn-head{
+	width: 14px;
+	height: 14px;
+	background: red;
+	display: inline-block;
+	margin-right: 5px;
+	border-radius: 14px;
+}
+
+.text-small{
+	font-size: 9px;
+}
+.unit{
+	font-size: 9px;
+	margin-left: 3px;
+}
+
+.app{
+	border-top: 1px solid #ccc;
+	font-size: 11px;
+}
+.user{
+	display: table;
+	border-collapse: separate;
+	border-spacing: 10px;
+	width: 100%;
+}
+.user .subBlock{
+	display: table-cell;
+	text-align: center;
+	padding: 3px 0;
+}
+.user .subBlock.block-total{
+	width: 60%;
+	border-radius: 2px;
+	background: #fff;
+}
+.user .subBlock.block-kakutoku{
+	width: 40%;
+	border-radius: 2px;
+	background: #fff;
+}
+
+.user .subBlock .disp-total{
+	font-size: 15px;
+	line-height: 25px;
+	display: inline-block;
+}
+.user .subBlock .disp-kakutoku{
+	font-size: 12px;
+	line-height: 25px;
+	display: inline-block;
+}
+.shusi .is-minus{
+	color: red;
+}
+
+.shusi{
+	background: #fff;
+	border: 2px solid #ddd;
+	margin: 0 10px;
+	padding: 10px;
+	position: relative;
+}
+.disp-shusi{
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+.maisuu{
+	position: absolute;
+	font-size: 11px;
+	right: 10px;
+	top: 5px;
+	color: #666;
+}
+
+
+.koma{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 7px;
+}
+.koma .ttl-atari{
+	float: left;
+}
+.koma .kingaku{
+	font-size: 8px;
+	margin-left: 1em;
+	color: #666;
+}
+.koma .mai{
+	font-size: 12px;
+	float: right;
+}
+
+
+.actionBar{
+	background: #000;
+	background: rgba(0,0,0, .6);
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+.inner{
+	padding: 10px;
+}
+
+.btn{
+	border: 1px solid blue;
+	background: #1E90FF;
+	padding: 8px 0;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	width: 100%;
+}
+.btn[disabled]{
+	display: none;
+}
+
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.about{
+	font-size: 12px;
+	background: #fff;
+}
+.about h2{
+	font-size: 12px;
+}
+
+

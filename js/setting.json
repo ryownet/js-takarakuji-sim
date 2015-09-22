@@ -1,0 +1,114 @@
+[  
+  {
+    "category": 1,
+    "name": "1等",
+    "kingaku": 500000000,
+    "atari": {
+      "kumi": "87",
+      "bangou": "178686"
+    }
+  },
+  {
+    "category": 10,
+    "name": "1等の前後賞",
+    "kingaku": 100000000,
+    "atari": {
+      "kumi": "87",
+      "bangou": "178687"
+    }
+  },
+  {
+    "category": 10,
+    "name": "1等の前後賞",
+    "kingaku": 100000000,
+    "atari": {
+      "kumi": "87",
+      "bangou": "178685"
+    }
+  },
+  {
+    "category": 11,
+    "name": "1等の組み違い",
+    "kingaku": 100000,
+    "atari": {
+      "kumi": "##",
+      "bangou": "178686"
+    }
+  },
+ 
+  {
+    "category": 2,
+    "name": "2等",
+    "kingaku": 10000000,
+    "atari": {
+      "kumi": "68",
+      "bangou": "196663"
+    }
+  },
+  {
+    "category": 2,
+    "name": "2等",
+    "kingaku": 10000000,
+    "atari": {
+      "kumi": "06",
+      "bangou": "103696"
+    }
+  },
+  {
+    "category": 2,
+    "name": "2等",
+    "kingaku": 10000000,
+    "atari": {
+      "kumi": "42",
+      "bangou": "149765"
+    }
+  },
+ 
+  {
+    "category": 3,
+    "name": "3等",
+    "kingaku": 1000000,
+    "atari": {
+      "kumi": "##",
+      "bangou": "115185"
+    }
+  },
+  {
+    "category": 4,
+    "name": "4等",
+    "kingaku": 30000,
+    "atari": {
+      "kumi": "##",
+      "bangou": "##4222"
+    }
+  },
+  {
+    "category": 4,
+    "name": "4等",
+    "kingaku": 30000,
+    "atari": {
+      "kumi": "##",
+      "bangou": "##1298"
+    }
+  },
+ 
+  {
+    "category": 5,
+    "name": "5等",
+    "kingaku": 3000,
+    "atari": {
+      "kumi": "##",
+      "bangou": "####54"
+    }
+  },
+ 
+  {
+    "category": 6,
+    "name": "6等",
+    "kingaku": 300,
+    "atari": {
+      "kumi": "##",
+      "bangou": "#####5"
+    }
+  }
+]
