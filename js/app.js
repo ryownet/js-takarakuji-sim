@@ -4,10 +4,12 @@
 
   var $ = w.jQuery;
 
+  //速度計測用. 10秒間のくじ判定数をアラート
+  var isDebug = false;
 
 // Util
 var kujiUtil = {
-  interval: null,
+  intervalID: null,
   TANKA : 300,
   INTERVAL: 2,
   zeroPad: function (num, keta){
@@ -18,12 +20,18 @@ var kujiUtil = {
     return ( zero + num).substr(-keta);
   },
   start: function () {
-    kujiUtil.interval = setInterval(kujiUtil.getKuji, kujiUtil.INTERVAL);
-     $('button[data-click=start]').attr('disabled', 'disabled');
-     $('button[data-click=stop]').removeAttr('disabled');
+    kujiUtil.intervalID = setInterval(kujiUtil.getKuji, kujiUtil.INTERVAL);
+    $('button[data-click=start]').attr('disabled', 'disabled');
+    $('button[data-click=stop]').removeAttr('disabled');
+    if(isDebug){
+      setTimeout(function (){
+        clearInterval( kujiUtil.intervalID );
+        window.alert(viewModel.totalKujiCount);
+      }, 10000);
+    }
   },
   stop: function () {
-    clearInterval( kujiUtil.interval);
+    clearInterval( kujiUtil.intervalID);
      $('button[data-click=start]').removeAttr('disabled');
      $('button[data-click=stop]').attr('disabled', 'disabled');
   },
